@@ -1,0 +1,291 @@
+The program asks user to enter Details of 5 different Classes that they wants to check. User has to enter a person, student, employee, faculty and staff.
+Person is the parent class. Student and Employee inherit Person. And Faculty and Staff inherit Employee.
+The user can run the program again by entering any number other than 0.
+
+
+Enter details for a person:
+Enter Name:
+Abhi
+Enter Address:
+12 Willow
+Enter Phone:
+1234567890
+Enter Email:
+aa@aa.com
+
+Details of Person:
+
+Name: Abhi
+Address: 12 Willow
+Phone number: 1234567890
+Email address: aa@aa.com
+
+Enter 1 to enter details for a Student or 2 to enter details for an Employee:
+1
+
+Enter details for a Student:
+Enter Id:
+s1
+Enter Status:
+4
+
+Details of Student:
+
+ID: s1
+Name: Abhi
+Address: 12 Willow
+Phone number: 1234567890
+Email address: aa@aa.com
+Status: senior
+
+Do you want to continue? Press 0 to exit or otherwise.
+1
+
+Enter details for a person:
+Enter Name:
+Ashu
+Enter Address:
+13 Willow
+Enter Phone:
+0987654321
+Enter Email:
+ss@ss.com
+
+Details of Person:
+
+Name: Ashu
+Address: 13 Willow
+Phone number: 0987654321
+Email address: ss@ss.com
+
+Enter 1 to enter details for a Student or 2 to enter details for an Employee:
+2
+
+Enter details for an Employee:
+Enter ID:
+e1
+Enter Office:
+Robot
+Enter Salary:
+100000
+
+Details of Employee:
+
+ID: e1
+Name: Ashu
+Address: 13 Willow
+Phone number: 0987654321
+Email address: ss@ss.com
+Office: Robot
+Salary: $100000.00
+Date hired: 04/13/2022
+
+Enter 1 to enter details for a Faculty or 2 to enter details for an Staff:
+1
+
+Enter details for an Faculty:
+Enter Office hours:
+09:00 - 16:00
+Enter Rank:
+Developer
+
+Details of Faculty:
+
+ID: e1
+Name: Ashu
+Address: 13 Willow
+Phone number: 0987654321
+Email address: ss@ss.com
+Office: Robot
+Salary: $100000.00
+Date hired: 04/13/2022
+Office hours: 09:00 - 16:00
+Rank: Developer
+
+Do you want to continue? Press 0 to exit or otherwise.
+1
+
+Enter details for a person:
+Enter Name:
+Surya
+Enter Address:
+14 Willow
+Enter Phone:
+1234565432
+Enter Email:
+dd@dd.com
+
+Details of Person:
+
+Name: Surya
+Address: 14 Willow
+Phone number: 1234565432
+Email address: dd@dd.com
+
+Enter 1 to enter details for a Student or 2 to enter details for an Employee:
+2
+
+Enter details for an Employee:
+Enter ID:
+e2
+Enter Office:
+Robot
+Enter Salary:
+200000
+
+Details of Employee:
+
+ID: e2
+Name: Surya
+Address: 14 Willow
+Phone number: 1234565432
+Email address: dd@dd.com
+Office: Robot
+Salary: $200000.00
+Date hired: 04/13/2022
+
+Enter 1 to enter details for a Faculty or 2 to enter details for an Staff:
+2
+
+Enter details for an Staff:
+Enter Title:
+Director
+
+Details of Staff:
+
+ID: e2
+Name: Surya
+Address: 14 Willow
+Phone number: 1234565432
+Email address: dd@dd.com
+Office: Robot
+Salary: $200000.00
+Date hired: 04/13/2022
+Title: Director
+
+Do you want to continue? Press 0 to exit or otherwise.
+1
+
+Enter details for a person:
+Enter Name:
+Ani
+Enter Address:
+15 Willow
+Enter Phone:
+123456789
+Enter Email:
+aa@aa.com
+
+Caught an exception with number. Details of Ani is not printed because, Number is Invalid.
+
+Do you want to continue? Press 0 to exit or otherwise.
+1
+
+Enter details for a person:
+Enter Name:
+Pra
+Enter Address:
+16 Willow
+Enter Phone:
+1234567890
+Enter Email:
+aa@aacom
+
+Caught an exception with Email. Details of Pra is not printed because, Email is Invalid.
+
+Do you want to continue? Press 0 to exit or otherwise.
+1
+
+Enter details for a person:
+Enter Name:
+Ruc
+Enter Address:
+17 Willow
+Enter Phone:
+1234567890
+Enter Email:
+aa@aa.com
+
+Details of Person:
+
+Name: Ruc
+Address: 17 Willow
+Phone number: 1234567890
+Email address: aa@aa.com
+
+Enter 1 to enter details for a Student or 2 to enter details for an Employee:
+2
+
+Enter details for an Employee:
+Enter ID:
+e3
+Enter Office:
+Robot
+Enter Salary:
+-50000
+
+Caught an exception with Salary. Details of Ruc is not printed because, Salary is less than zero! Invalid input.
+
+Do you want to continue? Press 0 to exit or otherwise.
+1
+
+Enter details for a person:
+Enter Name:
+Abhishek
+Enter Address:
+12 Willow
+Enter Phone:
+1234567890
+Enter Email:
+aa@aa.com
+
+Details of Person:
+
+Name: Abhishek
+Address: 12 Willow
+Phone number: 1234567890
+Email address: aa@aa.com
+
+Enter 1 to enter details for a Student or 2 to enter details for an Employee:
+2
+
+Enter details for an Employee:
+Enter ID:
+e5
+Enter Office:
+Robot
+Enter Salary:
+3000000
+
+Details of Employee:
+
+ID: e5
+Name: Abhishek
+Address: 12 Willow
+Phone number: 1234567890
+Email address: aa@aa.com
+Office: Robot
+Salary: $3000000.00
+Date hired: 04/13/2022
+
+Enter 1 to enter details for a Faculty or 2 to enter details for an Staff:
+2
+
+Enter details for an Staff:
+Enter Title:
+CEO
+
+Details of Staff:
+
+ID: e5
+Name: Abhishek
+Address: 12 Willow
+Phone number: 1234567890
+Email address: aa@aa.com
+Office: Robot
+Salary: $3000000.00
+Date hired: 04/13/2022
+Title: CEO
+
+Do you want to continue? Press 0 to exit or otherwise.
+0
